@@ -12,9 +12,9 @@ header {
     color: mediumblue;
 }        
 
-section {
+.texto-maior {
     padding: 20px;
-    background: plum;
+    background: rgb(220, 100, 220);
     display: flex;
     justify-content: center;
 }
@@ -29,4 +29,19 @@ h1 {
 
 p {
     font-size: 30px;
+}
+
+img {
+    height: 250px
+}
+
+.music {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.music-maior {
+    padding-left: 20px;
+    padding-right: 20px;
 }
